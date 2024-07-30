@@ -1,7 +1,7 @@
 import scrapy
 
 
-class MercadolivreSpider(scrapy.Spider):
+class MercadolivreSpider(scrapy.Spider) :
     name = "mercadolivre"
     start_urls = ["https://lista.mercadolivre.com.br/tenis-corrida-masculino"]
     page_count = 1
