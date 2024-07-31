@@ -4,7 +4,7 @@ import sqlite3
 from datetime import datetime
 
 # Definir o caminho para o arquivo JSONL
-df = pd.read_json('../data/data.jsonl', lines=True)
+df = pd.read_json('../data/data.jsonl', lines=True) 
 
 # Setar o pandas para mostrar todas as colunas
 pd.options.display.max_columns = None
@@ -46,5 +46,6 @@ conn.close()
 print(df.head())
 
 # Configurar pandas para mostrar todas as colunas
+
 
 # Exibir o DataFrame resultante
